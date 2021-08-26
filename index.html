@@ -2,68 +2,29 @@
 <html lang="eng">
     <head>
         <title>Project Google Homepage</title>
-        <style>
-                .google-logo {
-                    height: 92px;
-                    width: 272px;
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                    margin: auto;
-                    padding-top: 130px;
-                }
+        <link href="Styles/Styles.css" rel="stylesheet">
 
-                .google-search-button {
-                    font-family: arial;
-                    background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
-                    background-color: #f2f2f2;
-                    border: 1px solid #f2f2f2;
-                    border-radius: 4px;
-                    color: #5F6368;
-                    font-family: arial,sans-serif;
-                    font-size: 14px;
-                    margin: 11px 4px;
-                    padding: 0 16px;
-                    line-height: 27px;
-                    height: 36px;
-                    min-width: 54px;
-                    text-align: center;
-                    cursor: pointer;
-                    user-select: none;
-                }
-
-                .gogle-read-out-loud-button {
-                    height: 24px;
-                    width: 24px;
-                }
-
-                .search-box {
-                    background-color: transparent;
-                    border: none;
-                    margin: 0;
-                    padding: 0;
-                    display: flexbox;
-                    align-items: center;
-                    justify-content: center;
-                    margin: auto;
-                    text-align: center;
-
-
-
-
-
-        </style>
-    
     </head>
         <body>
-            <div><img class="google-logo" src="Images/google_logo.svg" alt="Google logo"></div>
-            
-            <img class="gogle-read-out-loud-button" src="https://web.archive.org/web/20191130234609im_/https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png" alt="">
-            
-            <button class="google-search-button" type="button">Google Search</button>
-        
-            <input maxlength="2048" id="search-box" name="search-box" type="text" 
-        
+            <main class="grid-container">
+                    <div class="item1-top-left-links"><a href="">About</a><a href="">Store</a></div>
+                    <div class="item2-header-empty"></div>
+                    <div class="item3-top-right-links"><a href="">Gmail</a><a href="">Images</a><img src="Images/apps_black_24dp.svg" alt="google apps button"><button type="button">Sign In</button></div>  
+                    <div class="item4-mid-empty-left"></div>
+                    <div class="item5-google-area">
+                        <img src="Images/google_logo.svg" alt="Google logo">
+                        <div><img src="Images/search_black_24dp.svg" alt="magnifying glass"><input id="search-input" name="search-input" type="text"><img src="https://web.archive.org/web/20191130234609im_/https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png" alt="" style="height: 24px; width: 24px;"></div>
+                        <div class="search-buttons"><button type="button">Google Search</button><button type="button">I'm Feeling Lucky</button></div>
+                    </div>
+                    <div class="item6-empty-right"></div>
+                    <div class="item7-empty"></div>
+                    <div class="item8-bellow-google"></div>  
+                    <div class="item9-empty"></div>
+                    <div class="item10-bottom-left-links"><a href="https://web.archive.org/web/20191130221802/https://ads.google.com/intl/en_us/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Advertising</a><a href="">Business</a></div>
+                    <div class="item11-bottom-mid"><a href="">How Search Works</a></div>
+                    <div class="item12-bottom-right-links"><a href="">Privacy</a><a href="">Terms</a><a href="">Settings</a></div>
+                    <div class="item13"></div>
+            </main>
         </body>
 </html>
     
