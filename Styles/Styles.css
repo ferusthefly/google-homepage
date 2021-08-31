@@ -1,21 +1,28 @@
-.grid-container {
+
+/* Grid method.grid-container {
     display: grid;
     background-color: #fff;
     height: 100vh;
-    grid-template-columns: 1fr 6fr 1fr;
+    grid-template-columns: 1.5fr 6fr 1.5fr;
     grid-template-rows: .5fr 3fr 3fr .5fr;
 }
 
 .item1-top-left-links {
-    background-color: rgb(180, 179, 179);
+    background-color: #fff;
 }
 
 .item2-header-empty {
     background-color:#fff;
+    display: flex;
+    justify-self: right;
 }
 
 .item3-top-right-links {
-    background-color: rgb(180, 179, 179);
+    background-color: #fff(180, 179, 179);
+    float: ;
+    padding-left: 90px;
+
+   
 }
 
 .item4-mid-empty-left {
@@ -28,6 +35,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-bottom: 200px;
 }
 
 .item6-bellow-google-empty{
@@ -47,13 +55,100 @@
 }
 
 .item10-bottom-right-links {
-    background-color: rgb(180, 179, 179);
+    background-color: #fff;
+    display: flex;
+    justify-content: right;
 }
 
 .item11-bottom-mid {
-    background-color: #fff);
+    background-color: #fff;
 }
 
 .item12-bottom-right-links {
-    background-color: rgb(180, 179, 179);
+    background-color: #fff;
+}
+
+#privacy {
+    float: right;
+}
+
+#sign-in-button {
+    background-color: #4285f4;
+    color: white;
+    outline: none;
+    border-style: hidden;
+    border-radius: 5px;
+    height: 34px;
+    font-weight: bold;
+    padding: 5px;
+    
+}
+
+a {
+    font-size: 14px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.item1-top-left-links, .item2-header-empty, .item3-top-right-links {
+    display: inline-block;
+    line-height: 24px;
+}*/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    float: left;
+    display: block;
+  color: white;
+  text-align: center;
+  padding: 7px 7px;
+  text-decoration: none;
+  fon
+}
+
+.google-main {
+    display: grid;
+    justify-self: start;
+    align-self: center;
+    /* height: 100vh; */
+    align-items: center;
+    justify-content: center;
+    padding-top: 200px;
+    
+}
+
+.footer-links {
+    padding-top: 905px;
+}
+
+input {
+    outline: none;
+    background-color: transparent;
+    background-image: url('https://web.archive.org/web/20191130234609im_/https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png');
+    background-repeat: no-repeat;
+    background-position: 10px 10px;
+    width: 100%;
+    background-position: right;
+    width: 100%;
+    background-size: contain;
+}
+
+#sign-in-button {
+    background-color: #4285f4;
+    color: white;
+    outline: none;
+    border-style: hidden;
+    border-radius: 5px;
+    height: 25px;
+    font-weight: bold;
+    
+   
+}
+body {
+    margin: 0;
 }
